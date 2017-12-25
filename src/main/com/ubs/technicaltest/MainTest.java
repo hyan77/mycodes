@@ -16,6 +16,7 @@ public class MainTest {
 		StringReader sr = null;
 		if(args.length>1) {
 			System.err.println("Arguments number wrong!");
+			return;
 		}
 		if(args.length==0)
 			sr = StringReaderBuilder.getInstance().buildStringReader(StringReaderBuilder.KEYBOARDSOURCE, null);
