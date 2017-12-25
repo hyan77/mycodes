@@ -28,7 +28,7 @@ public class MainTest {
 		// create a counter object
 		Counter counter = new WordCounter();
 		
-		// crate a lexer object
+		// crate a analyzer object
 		Analyzer analyzer = new StringAnalyzer(sr, counter);
 		
 		// analyse all word occurrence 
